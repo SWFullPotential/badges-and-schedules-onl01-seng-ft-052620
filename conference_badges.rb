@@ -6,13 +6,16 @@ def batch_badge_creator(array)
    array.each{|attendee| badges << "Hello, my name is #{attendee}."}
 return badges
 end
-def assign_rooms(array)
-  room_assignments = []
-  array.each_with_index{|attendee|, index}
+# def assign_rooms(array)
   
-  return room_assignments
-end  
+#   array.each_with_index{|attendee|, index}
   
+#   return room_assignments
+# end  
+  
+  
+  def assign_rooms(attendees)
+ attendees.each_with_index.collect{|name, index| "Hello, #{name}! You'll be assigned to room #{index + 1}!"}
   # describe '#assign_rooms' do
 
   #   # Question 3
