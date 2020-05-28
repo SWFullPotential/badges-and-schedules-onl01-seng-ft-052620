@@ -1,4 +1,3 @@
-def batch_badge_creator(array)
-  
+def conference_badges()
   
 end
