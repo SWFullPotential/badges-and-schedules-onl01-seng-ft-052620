@@ -6,8 +6,9 @@ def batch_badge_creator(array)
    array.each{|attendee| badges << "Hello, my name is #{attendee}."}
 return badges
 end
-def assign_rooms
-
+def assign_rooms(array)
+  room_assignments = []
+  array.each_with_index{attendees| room_assignments}
 end  
   
   # describe '#assign_rooms' do
