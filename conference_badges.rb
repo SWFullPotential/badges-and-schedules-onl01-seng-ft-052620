@@ -1,3 +1,3 @@
-def conference_badges()
+def conference_badges(array)
   
 end
