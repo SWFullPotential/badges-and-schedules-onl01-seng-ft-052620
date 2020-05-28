@@ -8,7 +8,8 @@ return badges
 end
 def assign_rooms(array)
   room_assignments = []
-  array.each_with_index{|attendee| room_assignments << "Hello, ${attendees}! You'll be assigned to room ${room_assignments.index}!"}
+  array.each_with_index{|attendee|, index}
+  
   return room_assignments
 end  
   
